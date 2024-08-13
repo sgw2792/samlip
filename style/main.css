@@ -1,0 +1,123 @@
+
+header{
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+}
+header h1 a{
+
+}
+header h1 a img{}
+header nav{ 
+}
+
+
+
+header nav > ul{
+    display: flex; 
+}
+header nav > ul > li {
+    margin-right: 20px;
+}
+header nav > ul > li:last-child{
+    margin: 0px;
+}
+header nav > ul > li > a {
+    font-size: 1.2rem; text-transform: uppercase;
+}
+header nav > ul > li > .sub {
+    position: absolute;
+    display: flex;
+    /* width: max-content; */
+}
+header nav > ul > li > .sub li{}    
+header nav > ul > li > .sub li a{
+white-space:no-wrap;}
+header .right {}
+header .right a {}
+/* main start */
+main{max-width: 1440px;
+    margin: 0 auto;
+}
+main .path_bg{
+    background-color: #f1f1f1;
+    border: 1px solid #aaa;
+    border-right:0px; border-left: 0px;
+}
+main .path_bg .path{
+    
+    width: 1440px; margin: 0 auto;
+    text-align: right; padding: 0 auto;
+}
+main .path_bg .path a {}
+main .path_bg .path span {}
+main .container{text-align: center;}
+main .container h1{
+    font-size: 3.13rem;
+    font-weight: 700;
+    margin: 74px 0 34px;
+
+}
+main .container > p {
+    font-weight: 300; letter-spacing: -2%;
+    margin-bottom: 53px;
+}
+main .container .bg {
+    background-color: #f1f1f1;
+    padding-top: 46px;
+}
+main .container .bg > *{
+    width: 1440px;  margin: 0 auto;
+}
+
+main .container .bg p{
+    font-size: 1rem;
+    line-height: 1.8;
+}
+main .container .bg p:nth-child(2){
+    margin: 45px auto 48px;
+}
+main .container .bg h2+p{
+    font-size:2.19rem;
+    line-height: 130%;
+}
+main .container .bg h2{
+    margin: 93px auto 44px;
+    font-size: 1.88rem;
+    color: #36b4e5;
+    line-height: 1.88rem;
+    letter-spacing: -2%;
+}
+main .container .bg ul{
+    display: flex;
+    justify-content: center;
+    
+}
+main .container .bg ul li{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+    
+    text-align: center;
+    margin-right: -25px;
+    width: 250px; height: 250px;
+    line-height: 250px;
+    border-radius: 100%;
+    background-color: #36B4E5}
+main .container .bg ul li:nth-child(2){background-color: #fff;}
+main .container .bg ul li:nth-child(3){background-color: #F3C300;}
+main .container .bg ul li span{
+    font-size: 1.56rem;
+    color: #fff;
+    letter-spacing: -2%;
+    } 
+    main .container .bg ul li:nth-child(2) span{
+        color: #000;
+    }
+
+
+
+
